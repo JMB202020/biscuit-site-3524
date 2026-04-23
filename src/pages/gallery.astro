@@ -1,0 +1,220 @@
+---
+import '../styles/site.css';
+const businessName = 'Birchwood Boarding Kennels';
+const id = '3524';
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facilities | Birchwood Boarding Kennels | Bexley</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preload" href="/3524/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/3524/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="bg-cream">
+
+    <!-- Preview banner -->
+    <div class="bg-brown text-white py-2.5 px-4 text-center text-sm sticky top-0 z-50">
+      <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+        <span>Preview redesign for <strong>Birchwood Boarding Kennels</strong> by <strong>Biscuit Web</strong></span>
+        <a href={`https://biscuitweb.co.uk/activate?id=${id}&name=${encodeURIComponent(businessName)}`} class="inline-flex items-center px-4 py-1 bg-white text-brown font-bold text-xs rounded-full hover:opacity-80 transition-opacity shrink-0">
+          Like it? Activate for £20/month
+        </a>
+      </div>
+    </div>
+
+    <!-- Nav -->
+    <header class="bg-white border-b border-border sticky top-10 z-40">
+      <div class="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
+        <a href="/3524" class="font-display font-extrabold text-xl text-forest leading-tight">
+          🐾 Birchwood Kennels
+        </a>
+        <button
+          class="md:hidden p-2 text-ink-soft"
+          onclick="document.getElementById('mobile-nav-3524-gal').classList.toggle('hidden')"
+          aria-label="Open menu"
+        >
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="/3524" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Home</a>
+          <a href="/3524/services" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Services &amp; Prices</a>
+          <a href="/3524/gallery" class="text-sm text-forest font-semibold transition-colors">Facilities</a>
+          <a href="/3524/contact" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Contact</a>
+          <a href="/3524/contact" class="inline-flex items-center px-5 py-2 bg-forest text-white font-display font-bold text-sm rounded-lg hover:bg-forest-deep transition-colors">
+            Book a stay
+          </a>
+        </nav>
+      </div>
+      <nav id="mobile-nav-3524-gal" class="hidden md:hidden bg-white border-t border-border px-6 pb-5 pt-4 space-y-3">
+        <a href="/3524" class="block text-sm font-semibold text-ink-soft hover:text-forest">Home</a>
+        <a href="/3524/services" class="block text-sm font-semibold text-ink-soft hover:text-forest">Services &amp; Prices</a>
+        <a href="/3524/gallery" class="block text-sm font-semibold text-forest">Facilities</a>
+        <a href="/3524/contact" class="block text-sm font-semibold text-ink-soft hover:text-forest">Contact</a>
+        <a href="/3524/contact" class="block px-5 py-3 bg-forest text-white font-display font-bold text-sm rounded-lg text-center hover:bg-forest-deep transition-colors">
+          Book a stay
+        </a>
+      </nav>
+    </header>
+
+    <!-- Page hero -->
+    <section class="bg-forest py-16 lg:py-20">
+      <div class="mx-auto max-w-4xl px-6 text-center">
+        <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 bg-white/15 text-white/90">
+          📍 Bexley
+        </span>
+        <h1 class="font-display font-extrabold text-3xl sm:text-5xl lg:text-6xl text-white leading-tight tracking-tight mb-5">
+          Our facilities
+        </h1>
+        <p class="text-white/80 text-lg max-w-xl mx-auto">
+          A look at what makes Birchwood a comfortable and safe place for your dog to stay. We encourage you to come and visit in person before booking.
+        </p>
+      </div>
+    </section>
+
+    <!-- Facilities overview -->
+    <section class="bg-cream py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-16">
+          <!-- Kennels -->
+          <div class="bg-white rounded-2xl overflow-hidden border border-border shadow-sm">
+            <div class="bg-sage-pale p-12 flex items-center justify-center">
+              <div class="text-center">
+                <span class="text-8xl block mb-4">🏠</span>
+                <p class="font-display font-bold text-forest text-sm uppercase tracking-widest">Individual kennels</p>
+              </div>
+            </div>
+            <div class="p-8">
+              <h2 class="font-display font-extrabold text-2xl text-ink mb-3">Heated individual kennels</h2>
+              <p class="text-ink-soft leading-relaxed mb-5">
+                Every dog at Birchwood has their own kennel. We don't mix unfamiliar dogs in shared spaces. Each kennel is individually heated so your dog is warm and comfortable whatever the weather outside, and we provide cosy bedding as standard.
+              </p>
+              <p class="text-ink-soft leading-relaxed">
+                The kennels are a decent size, not cramped cages. Dogs have room to stand, turn around, and lie down comfortably. We keep them clean and well-maintained throughout the year.
+              </p>
+            </div>
+          </div>
+
+          <!-- Outdoor runs -->
+          <div class="bg-white rounded-2xl overflow-hidden border border-border shadow-sm">
+            <div class="bg-tan-light p-12 flex items-center justify-center">
+              <div class="text-center">
+                <span class="text-8xl block mb-4">🌿</span>
+                <p class="font-display font-bold text-brown text-sm uppercase tracking-widest">Private runs</p>
+              </div>
+            </div>
+            <div class="p-8">
+              <h2 class="font-display font-extrabold text-2xl text-ink mb-3">Private outdoor runs</h2>
+              <p class="text-ink-soft leading-relaxed mb-5">
+                Each kennel has direct access to its own private outdoor run. Dogs can go outside whenever they like during the day, which is important for their mental wellbeing as much as their physical needs. The runs are fully enclosed and secure.
+              </p>
+              <p class="text-ink-soft leading-relaxed">
+                Dogs are never left in outdoor runs overnight, and we make sure all outdoor time is supervised appropriately.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exercise areas -->
+        <div class="bg-white rounded-2xl p-10 border border-border shadow-sm mb-10">
+          <div class="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-10 items-center">
+            <div class="text-center lg:text-left">
+              <span class="text-8xl block">🏃</span>
+            </div>
+            <div>
+              <h2 class="font-display font-extrabold text-2xl text-ink mb-3">Secure exercise areas</h2>
+              <p class="text-ink-soft leading-relaxed mb-4">
+                Beyond the individual runs, we have separate enclosed exercise areas where dogs can really stretch their legs, have a proper sniff around, and burn off energy. Every dog gets time in these areas each day as part of their routine.
+              </p>
+              <p class="text-ink-soft leading-relaxed">
+                The exercise areas are fully fenced and secure. Dogs are always supervised during exercise time and are exercised in suitable groups or individually depending on their temperament and your preferences.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Site features grid -->
+        <h2 class="font-display font-extrabold text-2xl text-ink mb-8 text-center">Site features</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <div class="bg-white rounded-xl p-6 text-center border border-border">
+            <span class="text-4xl block mb-3">🔒</span>
+            <p class="font-semibold text-ink text-sm">Fully secure site</p>
+            <p class="text-ink-whisper text-xs mt-1">All enclosures double-fenced</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 text-center border border-border">
+            <span class="text-4xl block mb-3">💡</span>
+            <p class="font-semibold text-ink text-sm">Good lighting</p>
+            <p class="text-ink-whisper text-xs mt-1">Safe for evening checks</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 text-center border border-border">
+            <span class="text-4xl block mb-3">🚿</span>
+            <p class="font-semibold text-ink text-sm">Regular cleaning</p>
+            <p class="text-ink-whisper text-xs mt-1">Kennels cleaned daily</p>
+          </div>
+          <div class="bg-white rounded-xl p-6 text-center border border-border">
+            <span class="text-4xl block mb-3">🚗</span>
+            <p class="font-semibold text-ink text-sm">Easy parking</p>
+            <p class="text-ink-whisper text-xs mt-1">Drop-off and collection on-site</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit CTA -->
+    <section class="bg-forest-deep py-16">
+      <div class="mx-auto max-w-3xl px-6 text-center">
+        <h2 class="font-display font-extrabold text-2xl sm:text-3xl text-white mb-4">Come and have a look round</h2>
+        <p class="text-white/80 text-lg leading-relaxed mb-8">
+          We encourage all new customers to visit before booking. It gives your dog a chance to have a sniff around, and it gives you the chance to see where they'll be staying and ask any questions you might have.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/3524/contact" class="inline-flex items-center justify-center px-8 py-4 bg-white text-forest font-display font-bold text-base rounded-lg hover:bg-cream transition-colors">
+            Arrange a visit
+          </a>
+          <a href="tel:01322631996" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/50 text-white font-display font-bold text-base rounded-lg hover:border-white transition-colors">
+            📞 01322 631996
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ink py-14">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          <div>
+            <p class="font-display font-extrabold text-xl text-white mb-3">🐾 Birchwood Boarding Kennels</p>
+            <p class="text-ink-whisper text-sm leading-relaxed">
+              Professional dog boarding in Bexley. Heated kennels, daily exercise, and genuine love for every dog in our care.
+            </p>
+          </div>
+          <div>
+            <p class="font-display font-bold text-white mb-4">Find us</p>
+            <address class="not-italic text-ink-whisper text-sm space-y-2 leading-relaxed">
+              <p>115B Tile Kiln Ln<br />Bexley</p>
+              <p><a href="tel:01322631996" class="hover:text-white transition-colors">01322 631996</a></p>
+              <p><a href="https://www.facebook.com/birchwoodboardingkennels" class="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Facebook page</a></p>
+            </address>
+          </div>
+          <div>
+            <p class="font-display font-bold text-white mb-4">Pages</p>
+            <nav class="space-y-2">
+              <a href="/3524" class="block text-ink-whisper text-sm hover:text-white transition-colors">Home</a>
+              <a href="/3524/services" class="block text-ink-whisper text-sm hover:text-white transition-colors">Services &amp; Prices</a>
+              <a href="/3524/gallery" class="block text-ink-whisper text-sm hover:text-white transition-colors">Facilities</a>
+              <a href="/3524/contact" class="block text-ink-whisper text-sm hover:text-white transition-colors">Contact</a>
+            </nav>
+          </div>
+        </div>
+        <div class="border-t border-white/10 pt-8 flex flex-col sm:flex-row justify-between gap-3">
+          <p class="text-ink-whisper text-xs">&copy; 2026 Birchwood Boarding Kennels. All rights reserved.</p>
+          <p class="text-ink-whisper text-xs">This is a sample site built by <a href="https://biscuitweb.co.uk" class="hover:text-white transition-colors">Biscuit Web</a> to showcase our work.</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,464 @@
+---
+import '../styles/site.css';
+const businessName = 'Birchwood Boarding Kennels';
+const id = '3524';
+const phone = '01322 631996';
+const address = '115B Tile Kiln Ln, Bexley';
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Birchwood Boarding Kennels | Dog Boarding in Bexley</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preload" href="/3524/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/3524/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="bg-cream">
+
+    <!-- Preview banner -->
+    <div class="bg-brown text-white py-2.5 px-4 text-center text-sm sticky top-0 z-50">
+      <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+        <span>Preview redesign for <strong>Birchwood Boarding Kennels</strong> by <strong>Biscuit Web</strong></span>
+        <a href={`https://biscuitweb.co.uk/activate?id=${id}&name=${encodeURIComponent(businessName)}`} class="inline-flex items-center px-4 py-1 bg-white text-brown font-bold text-xs rounded-full hover:opacity-80 transition-opacity shrink-0">
+          Like it? Activate for £20/month
+        </a>
+      </div>
+    </div>
+
+    <!-- Nav -->
+    <header class="bg-white border-b border-border sticky top-10 z-40">
+      <div class="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
+        <a href="/3524" class="font-display font-extrabold text-xl text-forest leading-tight">
+          🐾 Birchwood Kennels
+        </a>
+        <button
+          class="md:hidden p-2 text-ink-soft"
+          onclick="document.getElementById('mobile-nav-3524').classList.toggle('hidden')"
+          aria-label="Open menu"
+        >
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="/3524" class="text-sm text-forest font-semibold transition-colors">Home</a>
+          <a href="/3524/services" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Services &amp; Prices</a>
+          <a href="/3524/gallery" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Facilities</a>
+          <a href="/3524/contact" class="text-sm text-ink-soft hover:text-forest font-semibold transition-colors">Contact</a>
+          <a href="/3524/contact" class="inline-flex items-center px-5 py-2 bg-forest text-white font-display font-bold text-sm rounded-lg hover:bg-forest-deep transition-colors">
+            Book a stay
+          </a>
+        </nav>
+      </div>
+      <nav id="mobile-nav-3524" class="hidden md:hidden bg-white border-t border-border px-6 pb-5 pt-4 space-y-3">
+        <a href="/3524" class="block text-sm font-semibold text-forest">Home</a>
+        <a href="/3524/services" class="block text-sm font-semibold text-ink-soft hover:text-forest">Services &amp; Prices</a>
+        <a href="/3524/gallery" class="block text-sm font-semibold text-ink-soft hover:text-forest">Facilities</a>
+        <a href="/3524/contact" class="block text-sm font-semibold text-ink-soft hover:text-forest">Contact</a>
+        <a href="/3524/contact" class="block px-5 py-3 bg-forest text-white font-display font-bold text-sm rounded-lg text-center hover:bg-forest-deep transition-colors">
+          Book a stay
+        </a>
+      </nav>
+    </header>
+
+    <!-- Hero — solid forest green, no image -->
+    <section class="bg-forest min-h-[60vh] sm:min-h-[80vh] flex items-center relative overflow-hidden">
+      <!-- Subtle decorative circles -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-forest-deep opacity-40"></div>
+        <div class="absolute bottom-0 -left-16 w-64 h-64 rounded-full bg-sage opacity-20"></div>
+      </div>
+      <div class="relative z-10 mx-auto max-w-7xl px-6 py-20 lg:py-28 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
+        <div>
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-6 bg-white/15 text-white/90">
+            📍 Bexley
+          </span>
+          <h1 class="font-display font-extrabold text-3xl sm:text-5xl lg:text-6xl text-white leading-tight tracking-tight">
+            A home away from home for your dog
+          </h1>
+          <p class="mt-6 text-xl text-white/85 max-w-lg leading-relaxed">
+            Birchwood Boarding Kennels offers loving, professional care for your dog while you're away. Heated kennels, daily exercise, and a team who treat every dog as their own.
+          </p>
+          <div class="mt-10 flex flex-col sm:flex-row gap-4">
+            <a href="/3524/contact" class="inline-flex items-center justify-center px-8 py-4 bg-white text-forest font-display font-bold text-base rounded-lg hover:bg-cream transition-colors">
+              Book a stay
+            </a>
+            <a href="tel:01322631996" class="inline-flex items-center justify-center px-8 py-4 border-2 border-white/50 text-white font-display font-bold text-base rounded-lg hover:border-white transition-colors">
+              📞 01322 631996
+            </a>
+          </div>
+        </div>
+        <!-- Icon feature grid in place of image -->
+        <div class="grid grid-cols-2 gap-4 lg:gap-6">
+          <div class="bg-white/10 rounded-2xl p-6 text-center">
+            <div class="text-4xl mb-3">🏠</div>
+            <p class="text-white font-display font-bold text-sm">Heated kennels</p>
+          </div>
+          <div class="bg-white/10 rounded-2xl p-6 text-center">
+            <div class="text-4xl mb-3">🌿</div>
+            <p class="text-white font-display font-bold text-sm">Secure outdoor runs</p>
+          </div>
+          <div class="bg-white/10 rounded-2xl p-6 text-center">
+            <div class="text-4xl mb-3">🐕</div>
+            <p class="text-white font-display font-bold text-sm">Daily exercise</p>
+          </div>
+          <div class="bg-white/10 rounded-2xl p-6 text-center">
+            <div class="text-4xl mb-3">❤️</div>
+            <p class="text-white font-display font-bold text-sm">Loving care</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust strip -->
+    <section class="bg-white border-b border-border py-8">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-2xl">🔥</span>
+            <span class="text-sm font-semibold text-ink-soft">Heated kennels</span>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-2xl">🏃</span>
+            <span class="text-sm font-semibold text-ink-soft">Daily exercise included</span>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-2xl">📍</span>
+            <span class="text-sm font-semibold text-ink-soft">Based in Bexley, DA5</span>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <span class="text-2xl">🐾</span>
+            <span class="text-sm font-semibold text-ink-soft">Dogs of all sizes welcome</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="bg-cream py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="text-center mb-14">
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-ink mb-4">Our facilities</h2>
+          <p class="text-ink-soft text-lg max-w-2xl mx-auto">
+            Birchwood is set up to give your dog comfort, space, and stimulation throughout their stay. Here's what we offer.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🏠</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Heated individual kennels</h3>
+            <p class="text-ink-soft leading-relaxed">
+              Each dog gets their own warm, comfortable kennel with cosy bedding. Heated throughout the year so your dog is never cold, whatever the British weather decides to do.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🌿</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Secure outdoor runs</h3>
+            <p class="text-ink-soft leading-relaxed">
+              Every kennel has direct access to a private outdoor run where your dog can stretch their legs, sniff around, and get some fresh air throughout the day in a fully enclosed, safe environment.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🏃</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Exercise areas</h3>
+            <p class="text-ink-soft leading-relaxed">
+              Beyond the runs, we have separate secure exercise areas where dogs can have a proper roam and burn off some energy. We make sure every dog gets time to explore each day.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🍽️</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Feeding to your routine</h3>
+            <p class="text-ink-soft leading-relaxed">
+              We continue your dog's normal feeding schedule and portion sizes. Bring their usual food along and we'll stick to it. We can accommodate most dietary requirements and feeding times.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🌙</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Evening checks</h3>
+            <p class="text-ink-soft leading-relaxed">
+              Dogs are checked on in the evenings to make sure everyone is settled and comfortable. We don't just lock up and leave. Your dog's wellbeing is looked after right through until morning.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-border">
+            <div class="w-14 h-14 rounded-xl bg-sage-pale flex items-center justify-center text-2xl mb-5">🛡️</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-3">Secure and safe</h3>
+            <p class="text-ink-soft leading-relaxed">
+              The whole site is fully enclosed and secure. We require up-to-date vaccination records for all dogs, so you can be confident the dogs staying here are healthy and well cared for.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services overview with prices -->
+    <section class="bg-forest py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="text-center mb-14">
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mb-4">Services &amp; pricing</h2>
+          <p class="text-white/75 text-lg max-w-xl mx-auto">
+            Simple, honest pricing. Call or message us for an exact quote based on your dog's size and length of stay.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          <div class="bg-white/10 rounded-2xl p-8 border border-white/20 text-center">
+            <div class="text-3xl mb-4">🌞</div>
+            <h3 class="font-display font-bold text-xl text-white mb-2">Day boarding</h3>
+            <p class="text-white/70 text-sm leading-relaxed mb-4">
+              Drop your dog off in the morning and collect in the evening. Full day of care, exercise and company.
+            </p>
+          </div>
+          <div class="bg-white rounded-2xl p-8 border border-white/20 text-center shadow-lg">
+            <div class="text-3xl mb-4">🌙</div>
+            <h3 class="font-display font-bold text-xl text-ink mb-2">Overnight boarding</h3>
+            <p class="text-ink-soft text-sm leading-relaxed mb-4">
+              Cosy heated kennel, private outdoor run, daily exercise and all the attention your dog deserves. Priced per night.
+            </p>
+            <span class="inline-block px-4 py-1.5 bg-sage-pale text-forest text-xs font-bold rounded-full">Most popular</span>
+          </div>
+          <div class="bg-white/10 rounded-2xl p-8 border border-white/20 text-center">
+            <div class="text-3xl mb-4">📅</div>
+            <h3 class="font-display font-bold text-xl text-white mb-2">Extended stays</h3>
+            <p class="text-white/70 text-sm leading-relaxed mb-4">
+              Going away for a week or more? We offer discounted rates for longer stays. Get in touch for a tailored quote.
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="/3524/services" class="inline-flex items-center px-8 py-4 bg-white text-forest font-display font-bold text-base rounded-lg hover:bg-cream transition-colors mr-4">
+            See all services
+          </a>
+          <a href="/3524/contact" class="inline-flex items-center px-8 py-4 border-2 border-white/50 text-white font-display font-bold text-base rounded-lg hover:border-white transition-colors">
+            Get a quote
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Story -->
+    <section class="bg-cream-dark py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-ink mb-6">About Birchwood</h2>
+          <div class="space-y-5 text-ink-soft leading-relaxed text-lg">
+            <p>
+              Birchwood Boarding Kennels has been looking after dogs in Bexley for many years. We're a family-run business and we know how hard it can be to leave your dog behind, which is why we work hard to make every stay as comfortable and stress-free as possible.
+            </p>
+            <p>
+              We're based at 115B Tile Kiln Lane in Bexley and have built up a loyal community of local dog owners who trust us to care for their dogs year after year. We keep our kennel numbers manageable so that every dog gets proper individual attention, not just a corner in a crowded facility.
+            </p>
+            <p>
+              All dogs staying with us must have their vaccinations up to date. We ask for records at drop-off to make sure the environment stays healthy and safe for everyone. It's one of the things that sets us apart: we take the health and safety of every dog seriously.
+            </p>
+          </div>
+          <div class="mt-8">
+            <a href="/3524/contact" class="inline-flex items-center px-7 py-3.5 bg-forest text-white font-display font-bold text-sm rounded-lg hover:bg-forest-deep transition-colors">
+              Get in touch
+            </a>
+          </div>
+        </div>
+        <!-- Daily routine breakdown -->
+        <div class="bg-white rounded-2xl p-8 shadow-md border border-border">
+          <h3 class="font-display font-bold text-2xl text-ink mb-6">A typical day at Birchwood</h3>
+          <div class="space-y-5">
+            <div class="flex gap-4">
+              <div class="w-12 h-12 rounded-xl bg-sage-pale flex items-center justify-center text-xl shrink-0">🌅</div>
+              <div>
+                <p class="font-semibold text-ink text-sm mb-1">Morning</p>
+                <p class="text-ink-soft text-sm leading-relaxed">Dogs are checked on first thing, given fresh water and their morning feed. Outdoor run time to start the day.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-12 h-12 rounded-xl bg-sage-pale flex items-center justify-center text-xl shrink-0">🏃</div>
+              <div>
+                <p class="font-semibold text-ink text-sm mb-1">Mid-morning</p>
+                <p class="text-ink-soft text-sm leading-relaxed">Exercise in the secure outdoor areas. Dogs get a proper stretch and chance to explore.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-12 h-12 rounded-xl bg-sage-pale flex items-center justify-center text-xl shrink-0">🍽️</div>
+              <div>
+                <p class="font-semibold text-ink text-sm mb-1">Midday &amp; afternoon</p>
+                <p class="text-ink-soft text-sm leading-relaxed">Lunchtime feed if your dog's routine includes it, then rest time and more outdoor run access throughout the afternoon.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <div class="w-12 h-12 rounded-xl bg-sage-pale flex items-center justify-center text-xl shrink-0">🌙</div>
+              <div>
+                <p class="font-semibold text-ink text-sm mb-1">Evening</p>
+                <p class="text-ink-soft text-sm leading-relaxed">Evening feed, final outdoor run, and evening checks to make sure everyone is settled down for the night.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What to bring checklist -->
+    <section class="bg-white py-20 lg:py-28">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div>
+            <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-ink mb-4">What to bring</h2>
+            <p class="text-ink-soft text-lg leading-relaxed mb-8">
+              To help your dog feel at home and to make drop-off as smooth as possible, please bring the following with you.
+            </p>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">Vaccination records</p>
+                  <p class="text-ink-soft text-sm mt-0.5">Up-to-date records are required for all dogs. We need to see proof of current vaccinations before we can accept your booking.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">Your dog's own food</p>
+                  <p class="text-ink-soft text-sm mt-0.5">Bring enough food for the full stay, pre-measured in daily portions if possible. Keeping to their usual diet prevents upset tummies.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">A familiar blanket or toy</p>
+                  <p class="text-ink-soft text-sm mt-0.5">Something that smells of home can really help a dog settle. We'll pop it in their kennel to help them feel comfortable.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">Any medication</p>
+                  <p class="text-ink-soft text-sm mt-0.5">If your dog is on regular medication, bring it along with clear dosage instructions and we'll make sure they take it as needed.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">A contact number</p>
+                  <p class="text-ink-soft text-sm mt-0.5">Leave us a number where we can reach you, plus an emergency contact in case we need to get in touch quickly.</p>
+                </div>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="w-7 h-7 rounded-full bg-forest flex items-center justify-center text-white text-sm font-bold shrink-0 mt-0.5">✓</span>
+                <div>
+                  <p class="font-semibold text-ink">Their lead and collar</p>
+                  <p class="text-ink-soft text-sm mt-0.5">Please make sure your dog arrives on a lead and is wearing a collar with an ID tag, as required by law.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- FAQ -->
+          <div>
+            <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-ink mb-8">Common questions</h2>
+            <div class="space-y-6">
+              <details class="bg-cream rounded-xl px-6 py-5 group">
+                <summary class="font-semibold text-ink cursor-pointer list-none flex justify-between items-center">
+                  Do you accept unvaccinated dogs?
+                  <span class="text-forest ml-2 transition-transform group-open:rotate-45 text-xl font-light">+</span>
+                </summary>
+                <p class="text-ink-soft text-sm leading-relaxed mt-4">
+                  No. We require all dogs to have up-to-date vaccinations covering distemper, parvovirus, hepatitis, and leptospirosis. We ask to see vaccination records at drop-off. This protects every dog in our care.
+                </p>
+              </details>
+              <details class="bg-cream rounded-xl px-6 py-5 group">
+                <summary class="font-semibold text-ink cursor-pointer list-none flex justify-between items-center">
+                  Can I visit before booking?
+                  <span class="text-forest ml-2 transition-transform group-open:rotate-45 text-xl font-light">+</span>
+                </summary>
+                <p class="text-ink-soft text-sm leading-relaxed mt-4">
+                  Yes, absolutely. We'd encourage you to come and have a look around before committing. Get in touch to arrange a visit and we'll show you the kennels and facilities at a time that suits.
+                </p>
+              </details>
+              <details class="bg-cream rounded-xl px-6 py-5 group">
+                <summary class="font-semibold text-ink cursor-pointer list-none flex justify-between items-center">
+                  What breeds do you accept?
+                  <span class="text-forest ml-2 transition-transform group-open:rotate-45 text-xl font-light">+</span>
+                </summary>
+                <p class="text-ink-soft text-sm leading-relaxed mt-4">
+                  We welcome dogs of most breeds and sizes. If you have a specific breed in mind, just give us a call and we'll let you know straight away whether we can accommodate them.
+                </p>
+              </details>
+              <details class="bg-cream rounded-xl px-6 py-5 group">
+                <summary class="font-semibold text-ink cursor-pointer list-none flex justify-between items-center">
+                  How far in advance should I book?
+                  <span class="text-forest ml-2 transition-transform group-open:rotate-45 text-xl font-light">+</span>
+                </summary>
+                <p class="text-ink-soft text-sm leading-relaxed mt-4">
+                  We get very busy at peak times like school holidays and bank holiday weekends. We'd recommend booking as early as possible to avoid disappointment, especially for summer or Christmas stays.
+                </p>
+              </details>
+              <details class="bg-cream rounded-xl px-6 py-5 group">
+                <summary class="font-semibold text-ink cursor-pointer list-none flex justify-between items-center">
+                  What are your drop-off and collection times?
+                  <span class="text-forest ml-2 transition-transform group-open:rotate-45 text-xl font-light">+</span>
+                </summary>
+                <p class="text-ink-soft text-sm leading-relaxed mt-4">
+                  Give us a call on 01322 631996 and we'll agree drop-off and collection times with you directly. We try to be as flexible as possible to fit around your travel plans.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-tan-light py-20">
+      <div class="mx-auto max-w-3xl px-6 text-center">
+        <div class="text-5xl mb-6">🐾</div>
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-ink mb-4">
+          Ready to book your dog in?
+        </h2>
+        <p class="text-ink-soft text-lg leading-relaxed mb-10 max-w-xl mx-auto">
+          Get in touch to check availability and arrange a visit. We're based in Bexley and love meeting new dogs.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/3524/contact" class="inline-flex items-center justify-center px-8 py-4 bg-forest text-white font-display font-bold text-base rounded-lg hover:bg-forest-deep transition-colors">
+            Get in touch
+          </a>
+          <a href="tel:01322631996" class="inline-flex items-center justify-center px-8 py-4 bg-white text-forest font-display font-bold text-base rounded-lg hover:bg-cream transition-colors border border-border">
+            📞 01322 631996
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ink py-14">
+      <div class="mx-auto max-w-7xl px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          <div>
+            <p class="font-display font-extrabold text-xl text-white mb-3">🐾 Birchwood Boarding Kennels</p>
+            <p class="text-ink-whisper text-sm leading-relaxed">
+              Professional dog boarding in Bexley. Heated kennels, daily exercise, and genuine love for every dog in our care.
+            </p>
+          </div>
+          <div>
+            <p class="font-display font-bold text-white mb-4">Find us</p>
+            <address class="not-italic text-ink-whisper text-sm space-y-2 leading-relaxed">
+              <p>115B Tile Kiln Ln<br />Bexley</p>
+              <p><a href="tel:01322631996" class="hover:text-white transition-colors">01322 631996</a></p>
+              <p><a href="https://www.facebook.com/birchwoodboardingkennels" class="hover:text-white transition-colors" target="_blank" rel="noopener noreferrer">Facebook page</a></p>
+            </address>
+          </div>
+          <div>
+            <p class="font-display font-bold text-white mb-4">Pages</p>
+            <nav class="space-y-2">
+              <a href="/3524" class="block text-ink-whisper text-sm hover:text-white transition-colors">Home</a>
+              <a href="/3524/services" class="block text-ink-whisper text-sm hover:text-white transition-colors">Services &amp; Prices</a>
+              <a href="/3524/gallery" class="block text-ink-whisper text-sm hover:text-white transition-colors">Facilities</a>
+              <a href="/3524/contact" class="block text-ink-whisper text-sm hover:text-white transition-colors">Contact</a>
+            </nav>
+          </div>
+        </div>
+        <div class="border-t border-white/10 pt-8 flex flex-col sm:flex-row justify-between gap-3">
+          <p class="text-ink-whisper text-xs">&copy; 2026 Birchwood Boarding Kennels. All rights reserved.</p>
+          <p class="text-ink-whisper text-xs">This is a sample site built by <a href="https://biscuitweb.co.uk" class="hover:text-white transition-colors">Biscuit Web</a> to showcase our work.</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
